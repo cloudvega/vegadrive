@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/failed_upload_message_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/low_contrast_linen"
+    android:orientation="vertical" >
+
+   <TextView android:id="@+id/faild_upload_message" 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:minWidth="100dp"/>
+   
+   <Button
+       android:id="@+id/failed_uploadactivity_close_button"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Dismiss"
+       android:textColor="@color/cloudvega_green"
+       android:textColorHint="@color/cloudvega_green"
+       android:textColorLink="@color/cloudvega_green" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@drawable/low_contrast_linen"
+     android:orientation="vertical"
+     android:paddingLeft="8dp"
+     android:paddingRight="8dp" >
+
+     <ListView
+         android:id="@android:id/list"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:cacheColorHint="@color/cloudvega_green" />
+
+     <TextView
+         android:id="@android:id/empty"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/owncloud_white"
+         android:text="No data"
+         android:textColor="@color/cloudvega_green"
+         android:textColorHint="@color/cloudvega_green"
+         android:textColorLink="@color/cloudvega_green" />
+
+     <LinearLayout 
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="bottom">
+        
+     <Button
+         android:id="@+id/deleteLogHistoryButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@android:drawable/btn_default_small"
+         android:text="@string/prefs_log_delete_history_button"
+         android:textColor="@color/cloudvega_green"
+         android:textColorHint="@color/cloudvega_green"
+         android:textColorLink="@color/cloudvega_green" />
+     
+     </LinearLayout>
+     
+ </LinearLayout>
